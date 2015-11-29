@@ -1,0 +1,9 @@
+== Ninjector CDI
+
+Ninjector is the cure for a disease called Constructor Injection Anxiety, widely diagnosed amongst software developers that care about their code.
+
+== Usage
+
+Just put Ninjector CDI in your classpath, no configuration nor xml is needed.
+
+When Ninjector CDI is present in your classpath it will not boot the CDI container if constructor injection is used among your beans.

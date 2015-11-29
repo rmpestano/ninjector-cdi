@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CDIHelloExtension:war exploded">
+    <output-path>$PROJECT_DIR$/../hello-extension/target/hello-extension</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CDIHelloExtension" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-api:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-logging:3.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.solder:solder-impl:3.1.0.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../hello-extension/target/hello-extension/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="CDIHelloExtension/web/Web" />
+    </root>
+  </artifact>
+</component>
