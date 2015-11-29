@@ -40,6 +40,7 @@ public class NinjectorIt {
         assertNotNull(fieldInjectionBean);
     }
 
+
     @Test(expected = org.jboss.weld.exceptions.DefinitionException.class)
     public void shouldNotBootCdiContainerUsingConstrctorInjection(){
         Weld weld = new Weld();
